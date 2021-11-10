@@ -8,7 +8,7 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import Titolo from './components/Titolo.vue'
+import Titolo from './components/Titolo.vue'                       
 
 export default {
   name: 'App',
