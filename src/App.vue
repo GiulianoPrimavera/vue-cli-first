@@ -3,18 +3,21 @@
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
     <Titolo titolo="Titolo del mio primo vue cli"/>
+    <Hero hero="Provo a fare la hero"/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import Titolo from './components/Titolo.vue'                       
+import Titolo from './components/Titolo.vue'     
+import Hero from './components/Hero.vue'                  
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    Titolo
+    Titolo,
+    Hero
   }
 }
 </script>
